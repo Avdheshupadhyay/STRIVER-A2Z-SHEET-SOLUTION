@@ -20,6 +20,8 @@ public class P17_Majority_Element {
         int []nums={2,2,1,1,1,2,2};
         int ans=majorityElement(nums);
         System.out.println(ans);
+        // moore voting algo --> hmko pta h ki n/2 element same hi honge to hm distinct element pr count-- krte h and same pr count++ 
+        // if count=0 to hm maan lete h ki ye to ho hi nhi skta isiliye new candidate assign kr lete h 
     }
     
 }

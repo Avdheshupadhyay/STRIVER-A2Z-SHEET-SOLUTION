@@ -17,7 +17,8 @@ public class P18_Maximum_Subarray_Kadane {
         int []nums={-2,1,-3,4,-1,2,1,-5,4};
         int n=nums.length;
         System.out.println(maxSubArray(nums));
-
+        // kadane's algo -> hm check krte h ki kon si jgh pr hme subarray ko break krna h jese yha pr negative sum aane pr break kiya 
+        // kyuki we know that negative value kabhi bhi max sum me kaam nhi aa skti this is the kadane's algo
     }
 
 }

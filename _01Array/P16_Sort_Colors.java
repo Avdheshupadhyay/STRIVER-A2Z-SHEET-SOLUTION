@@ -28,6 +28,9 @@ public class P16_Sort_Colors {
         int []nums={2,0,2,1,1,0};
         sortColors(nums);
         System.out.println(Arrays.toString(nums));
+        // dutch national flag algo --> two pointer lete h one and two and one pr one wale elements ko swap krte h and two pr two wale and 1 ko skip kr dete h 
+        // bs ek point h isme jab hmko 2 milta h to hm to swap to krte h but start++ nhi krte kyuki whatif jo swap hua h element wo khud 2 ho 
+    
     }
     
 }
