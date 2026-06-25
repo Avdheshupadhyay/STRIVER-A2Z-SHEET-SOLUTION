@@ -20,6 +20,10 @@ public class P20_Rearrange_Array_Elements_by_Sign {
     public static void main(String[] args) {
         int []nums={3,1,-2,-5,2,-4};
         System.out.println(Arrays.toString(rearrangeArray(nums)));
+        // Approch --> mene simple ye socha ki relative order maintain krna h to odd even approch think kri
+        // 1. iterate kiya two pointer initialize kiye 
+        // even wala positive ko track krega 
+        // odd wala negative ko 
     }
     
 }
